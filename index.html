@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang=""en>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content ="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale =1.0">
+        <title> Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/8ce879f2b0.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home   </a></li>
+                    <li><a href="#about">About   </a></li>
+                    <li><a href="#Skills">Skills   </a></li>
+                    <li><a href="#Portfolio">Projects  </a></li>
+                    <li><a href="#Contact">Contact   </a></li>
+                </ul>
+            </nav>
+            <section class ="front">
+             <div class ="header-left">
+                <img src="images/picture2.jpg">
+               
+             </div>
+             <div class ="header-right">
+                <h1>Hello!!</h1>
+                <p>I am Mousam Marandi ,a pre-final year B.Tech Computer Science </p>
+                <p>Student at Birla Institute of Technology Mesra, Ranchi. </p>
+             </div>
+            </section>
+        </div>
+    </div>
+    <!------------------about------------------>
+    <div id="about">
+        <div class ="container">
+            <div class ="row">
+                <div class ="about-col-2">
+                    <h1 class ="sub-title"> About me</h1>
+                    <p> </p>
+                    <p> This is Mousam Marandi, currently pursuing B.Tech in Computer Science and Engineering
+                         from Birla Institute of Technology Mesra, Ranchi, Jharkhand.</p>
+                     <p> I am always eager to learn and improve my skills. I am a quick learner. I have a 
+                         solid understanding of Data structure and Algorithm and have a fair knowledge
+                         of subjects like Obeject-Oriented Programming, Database Management System, Operating 
+                         System etc .
+                        
+                        </p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------Skills------------->
+    <div id="Skills">
+        <div class="container">
+            <h1 class="sub-title1"> SKILLS</h1>
+            <div class ="my-skills">
+                <img src="images/html1.png">
+                <img src="images/CSS1.png">
+                <img src="images/javascript1.png">
+            </div>
+        </div>
+    </div>
+    <!-------------------Portfolio------------>
+    <div id="Portfolio">
+        <div class ="container">
+            <h1 class ="sub-title2"> PROJECTS</h1>
+            <div class ="Projects">
+                <div class ="work">
+                    <img src="images/portfolio.jpg">
+                    <div class="layer">
+                        <h3> My Portfolio</h3>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!--------------------------contact------------>
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class ="contact-left">
+                    
+                    <h1 class ="sub-title"> Contact Me</h1>
+                    <div class ="social-icons">
+                        <a href ="https://www.linkedin.com/in/mousam-marandi-7ba009265"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href ="https://github.com/Mousam24"><i class="fa-brands fa-github"></i></a>
+                        <a href ="https://mail.google.com/mail/u/0/#inbox"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script>
+ var tablinks = document.getElementsByClassname("tab-links");
+ var tabcontents = document.getElementsByClassname("tab-contents");
+ 
+ function opentab(tabname) {
+   for(tablink of tablinks){
+   tablink.classList.remove("active-link");
+   }
+   for(tabcontent of tabcontents) {
+   tabcontent.classList.remove("active-tab");
+   }
+   evenr.currentTarget.classList.add("active-link");
+   document.getElementsById(tabname).classList.add("active-tab");
+}
+
+ </script>
+</header>
+    </body>
+</html>
